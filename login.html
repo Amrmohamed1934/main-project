@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <title>medical tecnology</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="medical tecnology">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    
+       <div class="container-app">
+          <div class="overlay" id="overlay">
+            <div class="formone" id="sign-in">
+              <h1>Welcome!</h1>
+              <p>To make an appointment<br><span>please register with your personal info</span> </p>
+              <button class="switch-button" id="slide-right-button">Register</button>
+
+            </div>
+            <div class="formtwo" id="sign-up">
+              <h1>Welcome Back!</h1>
+              <p>To keep connected with us please login with your personal info</p>
+              <button class="switch-button" id="slide-left-button">Sign In</button>
+
+            </div>
+          </div>
+          <div class="form">
+            <div class="formtwo" id="sign-up-info">
+              <h1>Sign In</h1>
+              <div class="socl">
+                    <ul>
+                        <li class="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+              <p class="small">or use your email account:</p>
+              <form id="sign-in-form">      
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Password"/>
+                <p class="forgot-password">Forgot your password?</p>
+                <button class="control-button in">Sign In</button>
+              </form>
+            </div>
+            <div class="formone" id="sign-in-info">
+              <h1>Registeration</h1>
+                <div class="socl">
+                    <ul>
+                       <li class="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+              <p class="small">or use your email for registration:</p>
+              <form id="sign-up-form">
+                <input type="text" placeholder="FirstName" class="input-g"/>
+                <input type="text" placeholder="LastName"class="input-g"/>
+                <input type="email" placeholder="Email" class="input-g"/>
+                <input type="password" placeholder="Password" class="input-g"/><br>
+                  <div class="labelgender">Gender</div>
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+                  <div class="labelbirthday">Birthday</div>
+                <input type="date" name="bday" class="input-g size"/>
+                <button class="control-button up">Sign Up</button>
+              </form>
+
+            </div>
+      </div>
+    </div>
+        <script src="js/login-signup.js" type="text/javascript"></script>
+ </body>
+</html>
